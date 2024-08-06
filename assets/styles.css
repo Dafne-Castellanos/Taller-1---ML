@@ -1,0 +1,67 @@
+/* Definición de la paleta de colores */
+:root {
+    --color-principal: #240046; /* Verde azulado */
+    --color-secundario: #e9c46a; /* Amarillo pálido */
+    --color-terciario: #f1faee; /* Blanco muy claro */
+    --color-acento: #FF6D00; /* Rojo coral */
+    --color-texto: #333; /* Gris oscuro para el texto */
+    --color-fondo: #f4f4f9; /* Gris claro para el fondo */
+}
+
+
+/* Estilos generales de la página */
+body {
+    font-family: 'Century Gothic', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para los títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-principal);
+    margin-top: 0;
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilo para los subtítulos */
+h2 {
+    border-bottom: 2px solid var(--color-acento);
+    padding-bottom: 5px;
+}
+
+/* Estilos para los gráficos */
+.graph-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--color-terciario);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los botones */
+button {
+    background-color: var(--color-principal);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--color-acento);
+}
+
+/* Estilos para los enlaces */
+a {
+    color: var(--color-principal);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
